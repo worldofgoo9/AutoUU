@@ -1,3 +1,7 @@
+AutoUU-有品租赁自动上架的开源轻量化工具
+
+注：本项目基于GPL3.0
+
 (1)环境配置：
 
 安装Python：基本上版本没有太大限制，3.X版本应该都可以。推荐通过安装miniconda：https://docs.conda.io/en/latest/miniconda.html，安装miniconda后python应该是自动安装好了！
