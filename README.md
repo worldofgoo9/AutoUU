@@ -1,6 +1,8 @@
-AutoUU-有品租赁自动上架的开源轻量化工具
+AutoUU-悠悠有品租赁自动上架的开源轻量化工具
 
 项目系列文章：https://blog.csdn.net/weixin_43543078/article/details/130891185
+教学视频：https://www.bilibili.com/video/BV1Yu4y1f7iE
+蓝奏云下载地址：https://wwkp.lanzoum.com/iQOBA0xcw4zc 密码:a4ee
 
 注：本项目基于GPL3.0
 
