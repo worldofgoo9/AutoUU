@@ -6,7 +6,7 @@ AutoUU-悠悠有品租赁自动上架的开源轻量化工具
 
 蓝奏云下载地址：https://wwkp.lanzoum.com/iQOBA0xcw4zc 密码:a4ee
 
-注：本项目基于GPL3.0
+注：本项目依据GPL3.0协议开源
 
 (1)环境配置：
 
