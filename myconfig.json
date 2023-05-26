@@ -9,22 +9,22 @@
         "message":"New from 2023.4.20"
     },
     {
-        "float":"0.01373",
-        "strategy":"long",
+        "float":"0.0139061689313131",
+        "strategy":"auto",
         "shortPrice":3.0,
         "longPrice":2.5,
-        "valuePrice":14999.0,
+        "valuePrice":11999.0,
         "maxDay":22,
         "message":"长租好价 001",
         "name":"M9刺刀（★） | 虎牙"
         
     },
     {
-        "float":"0.022881954",
+        "float":"0.01875478013131355",
         "strategy":"long",
         "shortPrice":3.0,
         "longPrice":2.5,
-        "valuePrice":14999.0,
+        "valuePrice":11999.0,
         "maxDay":22,
         "message":"长租好价 001",
         "name":"M9刺刀（★） | 虎牙"

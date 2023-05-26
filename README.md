@@ -1,9 +1,6 @@
-AutoUU——有品租赁自动上架的轻量化工具
-
-
 (1)环境配置：
 
-安装Python：基本上版本没有太大限制，3.X版本应该都可以。
+安装Python：基本上版本没有太大限制，3.X版本应该都可以。推荐通过安装miniconda：https://docs.conda.io/en/latest/miniconda.html，安装miniconda后python应该是自动安装好了！
 
 安装requests包和schedule包：打开cmd（按windows+r，输入cmd并回车），输入命令pip install requests schedule -i https://mirrors.aliyun.com/pypi/simple/ 执行安装即可，有需要按y的按y即可。
 
@@ -54,7 +51,9 @@ configIndex.json格式示例如下：
 
   "retryInterval" : 300.0, 代表了当出现错误时，重试前等待的时间（秒），**不建议更改**
 
-  "runTime" : "17:00" 代表了上架流程每天的运行时间，根据自己的需求更改
+  "runTime" : "17:00" 代表了上架流程每天的运行时间，根据自己的需求更改，
+
+  "maxInvPage" : 2  程序只会检测你的前X页库存，也就是这里的最大检测库存页数设定。库存页数根据自己需要上架库存量而定，建议够用即可，不要太大，否则会很慢还可能出问题。一般来说，新获得的物品都是在前面的，所以到cd的物品也是在前面，加上平均下来每一天的物品不会太多，所以一般2-3页就很多很多了。
 
  
 

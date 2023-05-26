@@ -195,14 +195,14 @@ class AutoUU:
 
         res = requests.post(url, headers=headers, json=queryShort).json()
         if(res["Code"] == 0):
-            shortPrice = res["Data"]['CommodityList'][0]['LeaseUnitPrice']
+            shortPrice = float(res["Data"]['CommodityList'][0]['LeaseUnitPrice'])
 
         else:
             raise MyError(f"Get Short-Lease Price Failed. Response code:{res['Code']}, body:{res}")
 
         res = requests.post(url, headers=headers, json=queryLong).json()
         if(res["Code"] == 0):
-            longPrice = res["Data"]['CommodityList'][0]['LeaseUnitPrice']
+            longPrice = float(res["Data"]['CommodityList'][0]['LeaseUnitPrice'])
 
         else:
             raise MyError(f"Get Long-Lease Price Failed. Response code:{res['Code']}, body:{res}")
@@ -244,18 +244,18 @@ class AutoUU:
                 shortPrice = max(
                     self.config[itemFloat]['shortPrice'], shortMarketPrice*0.985-0.01)
                 longPrice = max(
-                    self.config[itemFloat]['shortPrice'], longMarketPrice*0.985-0.01)
+                    self.config[itemFloat]['longPrice'], longMarketPrice*0.985-0.01)
             elif(strategy == "short"):
                 shortPrice = max(
                     self.config[itemFloat]['shortPrice'], shortMarketPrice*0.97-0.01)
                 longPrice = max(
-                    self.config[itemFloat]['shortPrice'], longMarketPrice*1.015+0.01)
+                    self.config[itemFloat]['longPrice'], longMarketPrice*1.015+0.01)
 
             elif(strategy == "long"):
                 shortPrice = max(
                     self.config[itemFloat]['shortPrice'], shortMarketPrice*1.015+0.01)
                 longPrice = max(
-                    self.config[itemFloat]['shortPrice'], longMarketPrice*0.97-0.01)
+                    self.config[itemFloat]['longPrice'], longMarketPrice*0.97-0.01)
 
             elif(strategy == "fix"):
                 # Fixed.
