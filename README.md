@@ -1,5 +1,7 @@
 AutoUU-有品租赁自动上架的开源轻量化工具
 
+项目系列文章：https://blog.csdn.net/weixin_43543078/article/details/130891185
+
 注：本项目基于GPL3.0
 
 (1)环境配置：
