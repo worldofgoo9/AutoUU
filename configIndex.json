@@ -1,0 +1,15 @@
+{
+    "configPath" : [
+        "example.json",
+        "myconfig.json"
+    ],
+    "userName" : "你的用户名(手机)", 
+    "userPwd" : "登录密码",
+    "retryTimes" : 3,
+    "retryInterval" : 300.0,
+    "runTime" : "17:00",
+    "maxInvPage" : 2
+}
+
+
+

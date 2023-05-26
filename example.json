@@ -1,0 +1,36 @@
+[
+    {
+        "float":"0.01342727987876540",
+        "strategy":"long",
+        "shortPrice":3.0,
+        "longPrice":2.5,
+        "valuePrice":14999.0,
+        "maxDay":22,
+        "message":"长租好价 001",
+        "name":"M9刺刀（★） | 虎牙"
+        
+    },
+    {
+        "float":"0.012887084635924862",
+        "strategy":"long",
+        "shortPrice":3.0,
+        "longPrice":2.5,
+        "valuePrice":14999.0,
+        "maxDay":30,
+        "message":"长租好价 001",
+        "name":"M9刺刀（★） | 伽玛多普勒"
+        
+    },
+    {
+        "float":"0.011044155586942586",
+        "strategy":"long",
+        "shortPrice":3.0,
+        "longPrice":2.5,
+        "valuePrice":14999.0,
+        "maxDay":8,
+        "message":"长租好价 001",
+        "name":"M9刺刀（★） | 渐变之色"
+        
+    }
+]
+
